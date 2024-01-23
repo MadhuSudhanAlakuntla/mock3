@@ -5,7 +5,6 @@ const authRoutes = require('./routes/authRoutes');
 const appointmentRoutes = require('./routes/appointmentRoutes');
 const { connection } = require("./db");
 const app = express();
-const PORT = 3001;
 
 app.use(bodyParser.json());
 
